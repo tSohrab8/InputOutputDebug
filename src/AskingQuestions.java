@@ -21,13 +21,15 @@ public class AskingQuestions
   	System.out.println("The total is : " + (num1 + num2 + num3));
   	
   	//Input Output Change Assignment
+  	
+  	double number1,number2;
 
     System.out.print( "First temperature? " );
-    num1 = keyboard.nextInt();
+    number1 = keyboard.nextDouble();
 
     System.out.print( "Second temperature? " );
-    num2 = keyboard.nextInt();
+    number2 = keyboard.nextDouble();
 
-    System.out.println("The average value is " + ((num1 + num2)/2));
+    System.out.println("The average value is " + ((number1 + number2)/2));
   }
 }
